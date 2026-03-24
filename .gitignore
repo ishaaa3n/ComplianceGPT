@@ -1,0 +1,19 @@
+# Environment variables — never commit this
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments (if anyone runs locally without Docker)
+venv/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# ChromaDB persistent storage (will be added later)
+data/chroma/
